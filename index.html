@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <style>
+        .home-img:hover{
+            transform: scale(1.10);
+        }
+        .img-thumbnail:hover{
+            transform: scale(1.15);
+        }
+    </style>
+</head>
+<body class="bg-light">
+<!--Navbar Start-->
+<nav class="navbar navbar-light fixed-top bg-light shadow">
+    <div class="container-lg">
+        <a class="navbar-brand text-primary fw-bold fs-4" href="#">Portfolio</a>
+        <div class="dropdown">
+            <button class="btn btn-primary btn-primary px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+    </div>
+</nav>
+<!--Navbar End-->
+
+<!--Home Section Start-->
+<section class="home py-5" id="home">
+    <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="home-img text-center">
+                    <img src="Images/profile-img.png" class="border border-secondary border-4 rounded shadow-lg" alt="profile-img">
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-text">
+                    <p class="text-muted mb-1">Hello I'm</p>
+                    <h1 class="text-primary text-uppercase fs-1 fw-bold">Sandeep Kandagatla</h1>
+                    <h2 class="fs-4">Front-End Web Developer</h2>
+                    <p class=" text-muted">Proven 5 Months Experience in developing consumed-focused websites using HTML, CSS, JavaScript & Bootstrap.Good knowledge of best practices for web design, user experience and speed.</p>
+                    <a href="#portfolio" class="btn btn-primary px-3 mt-3">My Work</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Home Section End-->
+
+<!--About Section Start-->
+<section class="about py-5" id="about">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">About Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-text">
+                    <h6 class="small">In this projects I have used Visual Studio Code Software.<br><br>
+                    I have used some technologies like HTML, CSS, Bootstrap.<br><br>
+                    For NGO Website I have created home page and sub pages(About, Testimonials, Contact).<br><br>
+                    For Dental Clinic Website using only HTML & Bootstrap.<br><br>
+                    In that dental clinic website I have designed banners, cards and more, it is fully responsive website<br><br>
+                    For Saree Shopping E-Commerce Website I have designed completely looking as live website
+                    and also created pages.<br><br>
+                    In that saree shopping website I have created cards and gallery sections for items and also
+                    created some customers giving reviews to that website.<br><br>
+                    </h6>
+                </div>
+                <div class="row text-center text-uppercase my-3">
+                    <div class="col-sm-4">
+                        <div class="fact-item">
+                            <h4 class="fs-1 fw-bold">5</h4>
+                            <p class="text-muted">Projects Completed</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="fact-item">
+                            <h4 class="fs-1 fw-bold">4</h4>
+                            <p class="text-muted">Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="fact-item">
+                            <h4 class="fs-1 fw-bold">10</h4>
+                            <p class="text-muted">Positive Reviews</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex align-items-center">
+                        <a href="#" class="btn px-3 btn-primary me-5">Download CV</a>
+                        <div class="social-links">
+                            <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="skill-item mb-5">
+                    <h3 class="fs-6">HTML</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-label="Example 1px high" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+                <div class="skill-item mb-5">
+                    <h3 class="fs-6">CSS</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-label="Example 1px high" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+                <div class="skill-item mb-5">
+                    <h3 class="fs-6">JavaScript</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-label="Example 1px high" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+                <div class="skill-item mb-5">
+                    <h3 class="fs-6">Bootstrap</h3>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-label="Example 1px high" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--About Section End-->
+
+<!--Portfolio Section Start-->
+<section class="portfolio py-5" id="portfolio">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Latest Works</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="Images/port-1.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2 text-center">NGO Organization</h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="Images/port-2.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2 text-center">Dental Clinic</h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item">
+                    <img src="Images/port-3.png" class="w-100 img-thumbnail" alt="portfolio-item">
+                    <h3 class="text-capitalize fs-5 my-2 text-center">Saree Shopping</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Potfolio Section End-->
+
+<!--Testimonial Section Start-->
+<section class="testimonials py-5" id="testimonials">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Testimonials</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-primary"></li>
+                        <li class="bg-primary" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                        <li class="bg-primary" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner p-1">
+                        <!--Test Item Start-->
+                        <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                            <div class="test-author-info d-flex align-items-center">
+                                <img src="Images/t-1.jpg" class="img-thumbnail shadow-sm" alt="author img">
+                                <div class="author ms-3">
+                                    <h3 class="fs-6 mb-1">Karthik</h3>
+                                    <p class="text-muted m-0">Director</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptates fugiat iste mollitia odio praesentium!</p>
+                            <div class="rating text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <!--Test Item End-->
+                        <!--Test Item Start-->
+                        <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                            <div class="test-author-info d-flex align-items-center">
+                                <img src="Images/t-2.jpg" class="img-thumbnail shadow-sm" alt="author img">
+                                <div class="author ms-3">
+                                    <h3 class="fs-6 mb-1">Nisha</h3>
+                                    <p class="text-muted m-0">Team Lead</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptates fugiat iste mollitia odio praesentium!</p>
+                            <div class="rating text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <!--Test Item End-->
+                        <!--Test Item Start-->
+                        <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                            <div class="test-author-info d-flex align-items-center">
+                                <img src="Images/t-3.jpg" class="img-thumbnail shadow-sm" alt="author img">
+                                <div class="author ms-3">
+                                    <h3 class="fs-6 mb-1">Avinash</h3>
+                                    <p class="text-muted m-0">Manager</p>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptates fugiat iste mollitia odio praesentium!</p>
+                            <div class="rating text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <!--Test Item End-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Testimonial Section End-->
+
+<!--Contact Section Start-->
+<section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold mb-5">Contact Me</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-primary">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Email</h3>
+                        <p class="text-muted">kandagatlasandeep24@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-primary">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Phone</h3>
+                        <p class="text-muted">+91 9603810458</p>
+                    </div>
+                </div>
+                <div class="contact-item d-flex mb-3">
+                    <div class="icon fs-4 text-primary">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="text ms-3">
+                        <h3 class="fs-5">Visit Office</h3>
+                        <p class="text-muted">2388/A Rajajinagar, Bangalore - 560010</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Enter Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" placeholder="Enter Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-primary px-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact Section End-->
+
+<!--Footer Section Start-->
+<footer class="footer border-top py-4">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="m-0 text-center text-muted">&copy; Designed & Developed By Sandeep Kandagatla</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer Section End-->
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
